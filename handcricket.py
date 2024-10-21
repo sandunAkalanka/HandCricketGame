@@ -8,7 +8,7 @@ print("Welcome, " , name)
 print("You will get 10 wickets. Score 50 runs to win. \nRuns allowed: 1 , 2 , 3 , 4 , 5 , 6 . \nIf the number you enter matches the generated number, then it would be OUT. Otherwise, you will earn runs.")
 
 while wickets < 10 :
-    if(score >= 150):
+    if(score >= 50):
         print("Congratulations! You won! Your score is " , score , " / " , wickets)
         break
     pc_runs = random.choice(values)
