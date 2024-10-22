@@ -5,7 +5,7 @@ wickets = 0
 print("Hello")
 name = input("Please enter your name: ")
 print("Welcome, " , name)
-print("You will get 10 wickets. Score 50 runs to win. \nRuns allowed: 1 , 2 , 3 , 4 , 5 , 6 . \nIf the number you enter matches the generated number, then it would be OUT. Otherwise, you will earn runs.")
+print("core 50 runs to win. You have 10 wickets. \nRuns allowed: 1 , 2 , 3 , 4 , 5 , 6 . \nIf the number you enter matches the generated number, then it would be OUT. Otherwise, you will earn runs.")
 
 while wickets < 10 :
     if(score >= 50):
@@ -29,4 +29,3 @@ while wickets < 10 :
             print("Your score: " , score , " / " , wickets , "\n")
     except ValueError:
         print("Not a number! \n")
-#print("Your final score is " , score)
